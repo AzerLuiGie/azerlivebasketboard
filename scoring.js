@@ -5,6 +5,9 @@ document.querySelector("#container3").style.display = "none";
 document.querySelector("#container4").style.display = "none";
 document.querySelector("#container5").style.display = "none";
 
+document.querySelector("#point1").style.display = "none";
+document.querySelector("#point2").style.display = "none";
+
 let pointsData = document.getElementById("point1").innerHTML;
 let pointsData2 = document.getElementById("point2").innerHTML;
 let errorMsg = document.querySelector("#error");
@@ -43,6 +46,9 @@ buttonPlusOne.addEventListener("click", () => {
   pointsData = parseInt(pointsData + 1);
   document.getElementById("point1").innerHTML = pointsData;
   document.getElementById("sub1").disabled = false;
+
+  document.querySelector("#point1").style.display = "flex";
+
   console.log("Team 1 Add Points: ",pointsData);
   console.debug(pointsData);
   
@@ -55,6 +61,9 @@ buttonPlusTwo.addEventListener("click", () => {
   pointsData = parseInt(pointsData + 2);
   document.getElementById("point1").innerHTML = pointsData;
   document.getElementById("sub1").disabled = false;
+
+  document.querySelector("#point1").style.display = "flex";
+
   console.log("Team 1 Add Points: ",pointsData);
   console.debug(pointsData);
   
@@ -66,6 +75,9 @@ buttonPlusTwo.addEventListener("click", () => {
     pointsData = parseInt(pointsData + 3);
     document.getElementById("point1").innerHTML = pointsData;
     document.getElementById("sub1").disabled = false;
+
+    document.querySelector("#point1").style.display = "flex";
+
     console.log("Team 1 Add Points: ",pointsData);
     console.debug(pointsData);
   
@@ -102,6 +114,9 @@ buttonPlusOne2.addEventListener("click", () => {
   pointsData2 = parseInt(pointsData2 + 1);
   document.getElementById("point2").innerHTML = pointsData2;
   document.getElementById("sub1-clone").disabled = false;
+
+  document.querySelector("#point2").style.display = "flex";
+
   console.log("Team 2 Add Points: ",pointsData2);
   console.debug(pointsData2);
   
@@ -114,6 +129,9 @@ buttonPlusTwo2.addEventListener("click", () => {
   pointsData2 = parseInt(pointsData2 + 2);
   document.getElementById("point2").innerHTML = pointsData2;
   document.getElementById("sub1-clone").disabled = false;
+
+  document.querySelector("#point2").style.display = "flex";
+
   console.log("Team 2 Add Points: ",pointsData2);
   console.debug(pointsData2);
   
@@ -125,6 +143,9 @@ buttonPlusTwo2.addEventListener("click", () => {
     pointsData2 = parseInt(pointsData2 + 3);
     document.getElementById("point2").innerHTML = pointsData2;
     document.getElementById("sub1-clone").disabled = false;
+
+    document.querySelector("#point2").style.display = "flex";
+
     console.log("Team 2 Add Points: ",pointsData2);
     console.debug(pointsData2);
   
