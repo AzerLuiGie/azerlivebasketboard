@@ -178,7 +178,7 @@ buttonMinusOneClone.addEventListener("click", () => {
         document.querySelector("#container5").style.display = "flex";
         
         document.querySelector("#container2").style.display = "none";
-        document.querySelector("#container").style.display = "none";
+        //document.querySelector("#container").style.display = "none";
 
         
 
