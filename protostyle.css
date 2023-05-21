@@ -9,10 +9,10 @@ body{
     background-color: none;
     display: flex;
     flex-wrap: wrap;
-    height: 140px;
+    height: 80px;
 
     justify-content: center; 
-    align-items: flex-end;
+    align-items: center;
     
 
 
@@ -23,10 +23,10 @@ body{
     flex-wrap: wrap;
     
     width: 130px;
-    height: 100px;
+    height: 30px;
     
     justify-content: center; 
-    align-items: center;
+    align-items: flex-start;
     
 }
 .container-header p{
@@ -108,7 +108,7 @@ input[type=text]{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 200px;
+    height: 250px;
 
     justify-content: center; 
     align-items: center;
@@ -121,7 +121,7 @@ input[type=text]{
     display: flex;
     flex-wrap: nowrap;
     
-    width: 150px;
+    width: 200px;
     height: 60px;
     
     justify-content: center; 
@@ -129,8 +129,8 @@ input[type=text]{
     
 }
 h5 {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 125px;
     line-height: 100px;
     background-color: #eef4ee;
     color: #000000;
@@ -145,7 +145,7 @@ h5 {
 }
 h2{
     color: #ffffff;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     font-size: 30px;
     font-family: monospace;
     font-style: oblique;
@@ -158,11 +158,11 @@ p{
       
 }
 button{
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 1px;
+    padding-left: 1px;
     padding-right: 30px;
-    
-    margin-right: 15px;
+    margin-top: 70px;
+    margin-right: 10px;
     
     font-size: 20px;
     text-align: center;
@@ -210,9 +210,9 @@ button:active {
 .container4{
     background-color: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
-    height: 200px;
+    height: 280px;
 
     justify-content: center; 
     align-items: center;
@@ -242,34 +242,24 @@ button:active {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 80px;
+    height: 90px;
 
-    justify-content: center; 
+    justify-content: flex-end; 
     align-items: center;
     
 
 
 }
-.container5 .container-header5{
-    background-color: none;
-    display: flex;
-    flex-wrap: nowrap;
-    
-    width: 450px;
-    height: 20px;
-    
-    justify-content: center; 
-    align-items: center;
-    
-}
+
 
 .reset {
     background: #48701d;
     font-family: inherit;
     /*padding: 0.3em 1.3em; */
-    padding: 5px 10px ;
+    padding: 5px 5px ;
     width: 150px;
-    
+    margin-bottom: 30px;
+    margin-top: 30px;
     font-weight: 500;
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -291,7 +281,7 @@ button:active {
 
 
 .error{
-    color: #dee72e;
+    color: #eb4949;
     font-style: italic;
     font-size: smaller;
     font-weight:bold;
