@@ -146,10 +146,13 @@ h5 {
 h2{
     color: #ffffff;
     margin-bottom: 60px;
+    margin-right: -50px;
+    margin-left: -50px;
     font-size: 30px;
     font-family: monospace;
     font-style: oblique;
     font-weight: bolder;
+    background-color: none;
 }
 p{
     margin: 0px;
